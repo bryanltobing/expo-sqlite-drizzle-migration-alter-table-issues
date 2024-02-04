@@ -8,6 +8,13 @@
       "when": 1707056701343,
       "tag": "0000_loose_the_fallen",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1707057515142,
+      "tag": "0001_fluffy_greymalkin",
+      "breakpoints": true
     }
   ]
 }
