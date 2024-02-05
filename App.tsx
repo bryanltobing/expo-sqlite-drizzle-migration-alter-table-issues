@@ -32,7 +32,7 @@ export default function App() {
         backgroundColor: "red",
       }}
     >
-      <Text>My App</Text>
+      <Text>My App {JSON.stringify({success, error}, null, 2)}</Text>
     </View>
   );
 }

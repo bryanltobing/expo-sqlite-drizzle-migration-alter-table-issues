@@ -1,0 +1,44 @@
+{
+  "version": "5",
+  "dialect": "sqlite",
+  "id": "59019a9e-34be-4775-8d8d-44e02ce0bfbc",
+  "prevId": "be85159c-9e74-4bf2-9d90-6ff22c1e45f5",
+  "tables": {
+    "book": {
+      "name": "book",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "note": {
+          "name": "note",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    }
+  },
+  "enums": {},
+  "_meta": {
+    "schemas": {},
+    "tables": {},
+    "columns": {}
+  }
+}
